@@ -1,0 +1,43 @@
+body {
+	background-position: fixed;
+	background-size:cover;
+	background-image: url("../image/car.jpg");
+	
+	}
+.project_heading {
+	text-align: center;
+	text-decoration: underline;
+	color: white;
+}
+fieldset {
+	width: 50%;
+	margin: 0 auto;
+	color: white;
+}
+table {
+	width: 100%;
+}
+table tr td {
+	padding: 10px;
+	text-align: center;
+}
+input,select,textarea {
+	width: 70%;
+	height: 50px;
+	padding: 0;
+}
+textarea {
+	height: auto;
+	resize: vertical;
+	text-align: center;
+}
+
+.form_button input {
+	width: 20%;
+	float: right;
+}
+.submit_button {
+	margin-left: 20px;
+	background: gray;
+	color: white;
+}
